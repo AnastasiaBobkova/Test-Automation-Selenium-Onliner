@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OnlinerSuite">
+  <test name="TestOnlinerFilter">
+    <parameter name="filterValueProducer" value="Samsung" />
+    <parameter name="filterInputValueMaxPrice" value="1000" />
+    <parameter name="filterValueResolution" value="1920x1080" />
+    <parameter name="filterValueMinDiagonal" value="40" />
+    <parameter name="filterValueMaxDiagonal" value="50" />
+    <classes>
+      <class name="org.onliner.tests.TestOnlinerFilter"/>
+    </classes>
+  </test>
+</suite>
